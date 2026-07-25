@@ -23,18 +23,33 @@ The project also provides a simple Gradio interface where users can upload a new
 
 ## Dataset
 
+**Dataset Name:** Chronic Neuropathic Pain Dataset
+
 **Source:** Mendeley Data
 
-**Dataset Used:**
-Chronic Neuropathic Pain Dataset
+**Website:** https://data.mendeley.com
 
-The dataset contains:
+**Dataset URL:**
+https://data.mendeley.com/datasets/ygr5rmxk52
+
+### Dataset Description
+
+The Chronic Neuropathic Pain Dataset is a publicly available EEG dataset collected from patients diagnosed with chronic neuropathic pain. It includes EEG recordings along with detailed demographic and clinical questionnaire data, making it suitable for machine learning and biomedical signal processing research.
+
+### Dataset Contents
 
 - EEG recordings in `.gdf` format
 - Patient demographic information
 - Questionnaire responses
-- Pain scores
+- Pain intensity scores
+- Neuropathic pain etiology
 - Medical history
+- Treatment information
+
+### Files Used in This Project
+
+- EEG `.gdf` files
+- `Demographics_Questionnaires_Dataset_v4.xlsx`
 - Treatment details
 
 ---
